@@ -1,3 +1,11 @@
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Parcel build directories
+.cache
+.build
+
 # Logs
 logs
 *.log
@@ -102,3 +110,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# MacOS
+.DS_Store
